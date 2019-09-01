@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reddit.NETTests", "Reddit.N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthTokenRetriever", "AuthTokenRetriever\AuthTokenRetriever.csproj", "{A61B6959-0EF7-4EAC-9839-CDB1D3435B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthTokenRetrieverLib", "AuthTokenRetrieverLib\AuthTokenRetrieverLib.csproj", "{A2D9D25F-830F-4BED-8F98-83AAC57EF8B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthTokenRetrieverLib", "AuthTokenRetrieverLib\AuthTokenRetrieverLib.csproj", "{A2D9D25F-830F-4BED-8F98-83AAC57EF8B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71D0B87F-3619-4495-BE45-B3FD82D95308}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\Logo.gif = ..\Logo.gif
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

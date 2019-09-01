@@ -1,24 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.2.0-develop</Version>
+    <Version>2.2.4-develop</Version>
     <AssemblyVersion>1.2.0.1</AssemblyVersion>
     <FileVersion>1.2.0.1</FileVersion>
-    <PackageReleaseNotes>https://www.reddit.com/r/csharp/comments/c7rtvm/announcing_the_release_of_redditnet_12/</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/MingweiSamuel/Reddit.NET/tree/develop</PackageReleaseNotes>
     <Title>Reddit.NET</Title>
-    <PackageId>Reddit</PackageId>
-    <Authors>Kris Craig</Authors>
+    <PackageId>MingweiSamuel.Reddit.NET</PackageId>
+    <Authors>Kris Craig,MingweiSamuel</Authors>
     <Company />
-    <Description>Reddit.NET is a .NET Standard library that provides easy access to the Reddit API with virtually no boilerplate code required.</Description>
-    <Copyright>Copyright (C) 2019 by Kris Craig</Copyright>
-    <PackageLicenseUrl>https://github.com/sirkris/Reddit.NET/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/sirkris/Reddit.NET</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/sirkris/Reddit.NET</RepositoryUrl>
+    <Description>(fork of project by Kris Craig) Reddit.NET is a .NET Standard library that provides easy access to the Reddit API with virtually no boilerplate code required.</Description>
+    <Copyright>Copyright (C) 2019 by Kris Craig, MingweiSamuel</Copyright>
+    <PackageLicenseUrl>https://github.com/MingweiSamuel/Reddit.NET/blob/develop/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MingweiSamuel/Reddit.NET/tree/develop</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MingweiSamuel/Reddit.NET/tree/develop</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <PackageIconUrl>https://raw.githubusercontent.com/sirkris/Reddit.NET/master/Logo.gif</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/MingweiSamuel/Reddit.NET/develop/Logo.gif</PackageIconUrl>
     <PackageTags>reddit web utility http api oauth rest json netstandard</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>MingweiSamuel.Reddit.NET</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
